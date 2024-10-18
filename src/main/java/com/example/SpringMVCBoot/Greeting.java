@@ -2,21 +2,49 @@ package com.example.SpringMVCBoot;
 
 public class Greeting {
     private long id;
-  private String content;
+    private String name;
 
-  public long getId() {
-    return id;
-  }
+    public String getName() {
+        return name;
+    }
 
-  public void setId(long id) {
-    this.id = id;
-  }
+    public void setName(String name) {
+        this.name = name;
+    }
 
-  public String getContent() {
-    return content;
-  }
+    public String getEmail() {
+        return email;
+    }
 
-  public void setContent(String content) {
-    this.content = content;
-  }
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+    public String getPhone() {
+        return phone;
+    }
+
+    public void setPhone(String phone) {
+        this.phone = phone;
+    }
+
+    public String getTodo() {
+        return todo;
+    }
+
+    public void setTodo(String todo) {
+        this.todo = todo;
+    }
+    
+    private String email;
+    private String phone;
+    private String todo;
+    
+    public long getId() {
+        return id;
+    }
+
+    public void setId(long id) {
+        this.id = id;
+    }
 }
